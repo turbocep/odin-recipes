@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  background-color: rgb(189, 159, 115);
+}
+
+h1 {
+  font-size: 32px;
+}
+
+
+ul li {
+  text-align: center;
+  width: auto;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
