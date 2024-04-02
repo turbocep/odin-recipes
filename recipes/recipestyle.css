@@ -4,17 +4,31 @@
 
 body {
   background-color: rgb(189, 159, 115);
+  width: 500px;
+  margin: 0 auto;
 }
+
+h1 {
+  text-align: center;
+}
+
+/* How to resize image? Weird. Width didn't do anything. 
+Maybe inline width takes precedence. */
 
 
 .menu {
   list-style-type: none;
   display: flex;
-  margin: auto;
-  outline: red 2px solid;
+  width: 368px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .menu li {
   padding: 10px;
-  border: 1px solid black;
+  border: 2px solid black;
+  width: 75px;
+  text-align: center;
+  margin: 5px;
 }
+
